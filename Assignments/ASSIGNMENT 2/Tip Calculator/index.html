@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Tip Calculator</title>
+</head>
+<body>
+  <div class="hero-container">
+    <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; margin-top:13px;">Tip Calculator</h1>
+    <div class="billInput">
+      <span class="currency-symb">$</span>
+      <input type="number" id="num" placeholder="Enter Amount">
+    </div>
+    
+
+    <div class="billInput">
+      <label for="tip">Tip:</label>
+      <input type="range" name="range" id="range" min="0" max="100">
+      <span class="rangePercent"></span>
+    </div>
+
+    <hr>
+
+    <h3 style="text-align:center ;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; margin-top:13px;">Result</h3>
+    <div class="result-prim">
+      <div class="tip">
+        <span class="border">Tip Amount :</span>
+        <hr>
+        <span class="tipamt"></span>
+      </div>
+      <div class="amt">
+
+        <span class="border">Total Bill :</span>
+        <hr>
+        <span class="bill"></span>
+      </div>
+
+    </div>
+  </div>
+  <script src="./tip_calculator.js"></script>
+</body>
+</html>

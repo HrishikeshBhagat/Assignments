@@ -1,0 +1,45 @@
+
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    /* background: black; */
+    color: white;
+    
+}
+
+.hero-container{
+    padding: 8px;
+    width: 400px;
+    /* height: 80px; */
+    text-align: center;
+    margin: 0 auto;
+}
+.hero-container > div{
+    background-color: black;
+}
+.hero-container > div h1{
+    padding: 9px;
+}
+
+#currentTime{
+    padding: 9px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+#todaysDate{
+    padding: 9px;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
