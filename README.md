@@ -1,2 +1,2 @@
-# Javascrript Advance Assignment
+# Javascript Advance Assignment
 
